@@ -1,6 +1,9 @@
 # Animaciones extra
 media/videos
 media/images
+media/Tex
+media/texts
+pruebas
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
