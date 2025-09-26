@@ -7549,18 +7549,8 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Las series de Fourier son muy útiles ya que nos permiten expresar una aproximación de cualquier función periódica de forma muy sencilla de cancular (senos y cosenos).</p>
+<p>Las series de Fourier son muy útiles ya que nos permiten expresar una aproximación de cualquier función periódica de forma muy sencilla de calcular (senos y cosenos).</p>
 <p>Pero, para poder comprimir una imagen, necesitamos algo más general, que pueda analizar funciones no periódicas...</p>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a4d84455">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><em>Las series son una forma especifica para descomponer señales periodicas, pero para otras cosas necesitamos algo mas general</em></p>
 </div>
 </div>
 </div>
@@ -7570,7 +7560,7 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="%C2%BFQu%C3%A9-es-la-Transformada-de-Fourier?">¿Qué es la Transformada de Fourier?<a class="anchor-link" href="#%C2%BFQu%C3%A9-es-la-Transformada-de-Fourier?">¶</a></h2><p><em>Mostrar una función inicial y el resultado de aplicarle la transformada, y explicar la intuición de lo que se ve en los picos de la transformada</em></p>
+<h2 id="%C2%BFQu%C3%A9-es-la-Transformada-de-Fourier?">¿Qué es la Transformada de Fourier?<a class="anchor-link" href="#%C2%BFQu%C3%A9-es-la-Transformada-de-Fourier?">¶</a></h2>
 </div>
 </div>
 </div>
@@ -7761,7 +7751,51 @@ $$<video controls="" height="480" width="840">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Aplicaciones-a-ciencia-de-datos">Aplicaciones a ciencia de datos<a class="anchor-link" href="#Aplicaciones-a-ciencia-de-datos">¶</a></h2><p><em>Mencionar algunas aplicaciones directas</em></p>
+<h2 id="Aplicaciones-a-ciencia-de-datos">Aplicaciones a ciencia de datos<a class="anchor-link" href="#Aplicaciones-a-ciencia-de-datos">¶</a></h2>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3c241309">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Predicciones-de-serries-de-tiempo-combinando-dominios-temporal-y-frecuencial">Predicciones de serries de tiempo combinando dominios temporal y frecuencial<a class="anchor-link" href="#Predicciones-de-serries-de-tiempo-combinando-dominios-temporal-y-frecuencial">¶</a></h3><p>Un modelo llamado FFT-LSTM usa FFT para extraer características (amplitud y fase) del dominio de frecuencia, combina esas características con los datos del dominio temporal, y mejora la precisión de la predicción.</p>
+<p>Fuente: <a href="https://www.mdpi.com/2504-2289/9/2/35">Enhancing the FFT-LSTM Time-Series Forecasting Model via a Novel FFT-Based Feature Extraction–Extension Scheme. Yemets, K.; Izonin, I.; Dronyuk, I. (2025).</a></p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=55867edd">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Forecasting-a-largo-plazo-con-redes-que-atienden-la-frecuencia">Forecasting a largo plazo con redes que atienden la frecuencia<a class="anchor-link" href="#Forecasting-a-largo-plazo-con-redes-que-atienden-la-frecuencia">¶</a></h3><p>Un modelo híbrido “tiempo-frecuencia” (FFT + otras arquitecturas especializadas) para prever tendencias de series de tiempo en dominios como meteorología, finanzas e industria.</p>
+<p>Fuente: <a href="https://www.mdpi.com/2079-9292/14/7/1303">FFTNet: Fusing Frequency and Temporal Awareness in Long-Term Time Series Forecasting. Yang, Zhiqiang et al. (2025).</a></p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f3b4181e">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Detecci%C3%B3n-de-anomal%C3%ADas-usando-convoluciones-r%C3%A1pidas-en-frecuencia">Detección de anomalías usando convoluciones rápidas en frecuencia<a class="anchor-link" href="#Detecci%C3%B3n-de-anomal%C3%ADas-usando-convoluciones-r%C3%A1pidas-en-frecuencia">¶</a></h3><p>Se introduce ‘Fast Fourier Convolutions’ como parte de un sistema de detección de anomalías; se aprovecha la capacidad de la transformada para capturar patrones globales y periódicos que pueden indicar fallas u otros casos extraños.</p>
+<p>Fuente: <a href="https://www.mdpi.com/1424-8220/25/16/5196">Introducing Fast Fourier Convolutions into Anomaly Detection. Zhao, Z.; Zhou, J. (2025). </a></p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=dfb13e3b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Detecci%C3%B3n-de-anomal%C3%ADas-en-ruedas-de-tren-mediante-STFT">Detección de anomalías en ruedas de tren mediante STFT<a class="anchor-link" href="#Detecci%C3%B3n-de-anomal%C3%ADas-en-ruedas-de-tren-mediante-STFT">¶</a></h3><p>Usan la Transformada de Fourier de Tiempo Corto (STFT) para extraer características tiempo-frecuencia de señales de vibración, lo cual permite identificar defectos sin supervisión (sin necesidad de muchos ejemplos de fallo).</p>
+<p>Fuente: <a href="https://eprints.qut.edu.au/241676/?utm_source=chatgpt.com">Anomaly detection of train wheels utilizing short-time Fourier transform and unsupervised learning algorithms. Wan, Ting Hei et al. (2023).</a></p>
 </div>
 </div>
 </div>
